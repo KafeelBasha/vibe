@@ -1,0 +1,14 @@
+pip==25.2
+PyMuPDF
+llama-index
+pdfplumber
+chromadb
+streamlit
+google-genai==1.26.0
+google.generativeai
+google.api_core
+pytesseract
+transformers
+dotenv
+pysqlite3-binary
+tesseract-ocr
