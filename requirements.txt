@@ -1,6 +1,7 @@
 pip==25.2
 PyMuPDF
 llama-index
+tesseract-ocr
 pdfplumber
 chromadb
 streamlit
@@ -11,4 +12,3 @@ pytesseract
 transformers
 dotenv
 pysqlite3-binary
-tesseract-ocr
