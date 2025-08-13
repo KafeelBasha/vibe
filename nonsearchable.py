@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 # Define Tesseract path
-pytesseract.pytesseract.tesseract_cmd = r'C:/Users/2345029/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = r'C:/Users/2345029/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
 
 def extract_image_content(pdf_path, dpi=300):
     """
@@ -106,4 +106,5 @@ def extract_image_content(pdf_path, dpi=300):
             continue
 
     doc.close()
+
     return text_content
