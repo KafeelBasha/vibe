@@ -11,4 +11,4 @@ pytesseract
 transformers
 dotenv
 pysqlite3-binary
-tesseract-ocr
+tesseract
